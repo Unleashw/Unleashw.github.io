@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自动打开多个网站</title>
+</head>
+
+<body>
+    <script>
+        // 页面加载完成后执行代码
+        window.onload = function () {
+            // 要打开的三个网站链接
+            const url1 = 'https://www.pronhub.com';
+            const url2 = 'https://www.jable.tv.com';
+            const url3 = 'https://www.hlwang.co';
+
+            // 使用 window.open 方法打开新窗口并加载网站
+            window.open(url1, '_blank');
+            window.open(url2, '_blank');
+            window.open(url3, '_blank');
+        };
+    </script>
+</body>
+
+</html>
